@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px;
+  border-radius: 6px;
+  backdrop-filter: blur(2px);
+  background: rgba(255, 255, 255, 0.2);
+
+  position: absolute;
+  left: 16px;
+  top: 116px;
+  // right: 20px;
+  // top: calc(100vh - 50vh);
+}
+
+.link {
+  fill: #fff;
+}

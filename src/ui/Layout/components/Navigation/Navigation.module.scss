@@ -1,0 +1,34 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent;
+  color: white;
+
+  position: sticky;
+  top: 0;
+  // background: #a42222;
+}
+
+$size: 24px;
+.logo {
+  width: $size;
+  height: $size;
+  fill: #fff;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px 24px;
+}
+.link {
+  color: #fff;
+
+  text-decoration: none;
+  &:visited {
+    text-decoration: none;
+  }
+}
